@@ -1,1 +1,1 @@
-# Componentiza-o
+# Componentização

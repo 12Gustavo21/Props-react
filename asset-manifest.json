@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/Componentizacao/static/js/main.84c126b6.js",
+    "main.js": "/Componentizacao/static/js/main.db1dc9cb.js",
+    "static/media/working.mp4": "/Componentizacao/static/media/working.20eb7c7fb81948e39398.mp4",
     "index.html": "/Componentizacao/index.html",
-    "main.84c126b6.js.map": "/Componentizacao/static/js/main.84c126b6.js.map"
+    "main.db1dc9cb.js.map": "/Componentizacao/static/js/main.db1dc9cb.js.map"
   },
   "entrypoints": [
-    "static/js/main.84c126b6.js"
+    "static/js/main.db1dc9cb.js"
   ]
 }

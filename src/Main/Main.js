@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import * as S from "./Main-style";
+import * as S from "./Main-style";
 import video from "./video/working.mp4"
 
 export default class Main extends Component {

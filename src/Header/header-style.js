@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const content = styled.section`
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin: 10px;
 `;
 
 export const Header = styled.section`
@@ -14,21 +15,32 @@ export const Header = styled.section`
     background-color: #000;
     position: fixed;
     width: 80%;
-    border-radius: 0 50px 50px 0;
+    border-radius: 50px;
 `;
 
 export const title = styled.h1`
     font-size: 2em;
 `;
 
-export const list = styled.ul`
+export const Nav = styled.nav`
     display: flex;
 `;
 
-export const Li = styled.li`
+export const Navigation = styled.h4`
     margin-left: 25px;
 `;
 
 export const link = styled.a`
     color: #fff;
+`;
+
+export const menu = styled.div`
+    display: none;
+`;
+
+export const Line = styled.div`
+    background: #fff;
+    width: 40px;
+    height: 1px;
+    margin-bottom: 10px;
 `;

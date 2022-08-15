@@ -4,36 +4,42 @@ import styled from "styled-components";
 export const content = styled.section`
     display: flex;
     justify-content: center;
-    margin: 10px;
+    align-items: center;
 `;
 
 export const Header = styled.section`
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    color: #fff;
+    justify-content: center;
+`;
+
+export const BoxHeader = styled.section`
+    z-index: 99999999999999999999;
     background-color: #b676ef;
-    position: fixed;
-    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 50px;
-    @media(max-width: 450px){
-        width: 90%;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+    position: fixed;
+    top: 15px;
+    width: 80%;
+    padding: 10px;
+    height: 10vh;
 `;
 
 export const image = styled.img`
-    width: 4em;
-     @media(max-width: 450px){
-        margin-right: 20px;
-    } 
+    width: 5%;
+    transition: 1s all;
+    &:hover{
+        transform: rotate(360deg);
+    }
 `;
 
 export const title = styled.h1`
     font-size: 2em;
     transition: 1s all;
+    color: #fff;
     &:hover{
         color: #000;
         font-size: 2.2em;
@@ -48,7 +54,7 @@ export const list = styled.section`
 export const Nav = styled.nav`
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     @media(max-width: 450px){
         display: none;
     }

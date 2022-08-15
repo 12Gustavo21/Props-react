@@ -1,7 +1,7 @@
 import { hover } from "@testing-library/user-event/dist/hover";
 import styled from "styled-components";
 
-export const content = styled.section`
+export const content = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;

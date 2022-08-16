@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Props-react/static/js/main.b49ef51e.js",
-    "static/media/working.mp4": "/Props-react/static/media/working.20eb7c7fb81948e39398.mp4",
+    "main.js": "/Props-react/static/js/main.9453585a.js",
+    "static/media/working.gif": "/Props-react/static/media/working.c1b80ef7f835d3f7830e.gif",
     "index.html": "/Props-react/index.html",
-    "main.b49ef51e.js.map": "/Props-react/static/js/main.b49ef51e.js.map"
+    "main.9453585a.js.map": "/Props-react/static/js/main.9453585a.js.map"
   },
   "entrypoints": [
-    "static/js/main.b49ef51e.js"
+    "static/js/main.9453585a.js"
   ]
 }

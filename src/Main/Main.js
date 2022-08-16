@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as S from "./Main-style";
-import video from "./video/working.mp4";
+import video from './working.gif';
 import Card from './Card/Card';
 
 export default class Main extends Component {
@@ -8,17 +8,9 @@ export default class Main extends Component {
         return (
             <S.Main>
                 <S.BoxMain>
-                    <section>
-                        <video
-                            loading="lazy"
-                            muted="muted"
-                            src={video}
-                            type="video/mp4"
-                            autoplay="autoplay"
-                            loop="loop">
-                            Seu navegador não suporta a TAG video
-                        </video>
-                    </section>
+                    <S.VideoMain>
+                        <S.video src={video} alt="Men working at home" />
+                    </S.VideoMain>
                     <section>
                         <Card nome="Gustavo" idade="17 anos" estudo="React" />
                     </section>

@@ -5,7 +5,7 @@ export const Footer = styled.footer`
     display: flex;
     width: 100%;
     border-radius: 50px 50px 0 0;
-    height: 21vh;
+    height: 21vh;   
 `;
 
 export const BoxFooter = styled.section`
@@ -24,5 +24,13 @@ export const TextFooter = styled.h1`
         color: #000;
         font-size: 1.7em;
         cursor: context-menu;
+    }
+
+    @media (max-width: 2560px) {
+       font-size: 2.5em;
+    }
+
+    @media (max-width: 1440px) {
+        font-size: 2em;
     }
 `;

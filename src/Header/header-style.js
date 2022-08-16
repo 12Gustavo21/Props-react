@@ -1,71 +1,6 @@
 import { hover } from "@testing-library/user-event/dist/hover";
 import styled from "styled-components";
 
-export const Modal = styled.section`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #000;
-    width: 70%;
-    height: 40vh;
-    opacity: .9;
-    border-radius: 20px;
-    flex-direction: column;
-    color: #fff;
-    animation: animate;
-    animation-duration: 800ms;
-    z-index: 9999999999;
-    padding: 10px;
-    display: none;
-
-@keyframes animate {
-    from {
-        opacity: 1;
-    }
-
-    from {
-        opacity: 0;
-    }
-}
-
-`;
-
-export const ModalTitle = styled.h1`
-    font-size: 1.5em;
-`;
-
-export const ModalBox = styled.section`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-export const ModalNavigation = styled.nav`
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 10px;
-`;
-
-export const ModalDiscretion = styled.a`
-    color: #fff;
-    transition: 1s all;
-    &:hover{
-        color: #b676ef;
-        text-decoration: underline;
-    }
-`;
-
-export const ModalButton = styled.button`
-    background: none;
-    font-size: 1.2em;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 5px 15px;
-`;
-
 export const content = styled.header`
     display: flex;
     justify-content: center;
@@ -187,5 +122,5 @@ export const Line = styled.div`
     background: #fff;
     width: 40px;
     height: 2px;
-    margin: 10px;
+    margin: 7px;
 `;

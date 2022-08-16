@@ -51,9 +51,10 @@ export const video = styled.img`
 
     @media (max-width: 375px) {
         width: 165%;
+        height: 35vh;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 345px) {
         width: 200%;
     }
 `;
